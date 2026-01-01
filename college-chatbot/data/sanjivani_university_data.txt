@@ -1,0 +1,60 @@
+=== SANJIVANI UNIVERSITY OVERVIEW ===
+Sanjivani University is a private university located in Kopargaon, Ahmednagar district, Maharashtra, India. It was established on the 40th anniversary of the Sanjivani Rural Education Society. The university emphasizes academic rigor, research, innovation, and global partnerships. :contentReference[oaicite:0]{index=0}
+
+=== LOCATION & CONTACT ===
+Address: Kopargaon, Near Shirdi, Ahmednagar, Maharashtra, 423601, India. :contentReference[oaicite:1]{index=1}
+
+=== ADMISSIONS ===
+Sanjivani University offers online admissions for undergraduate (UG), postgraduate (PG), and doctoral programmes. Admission to courses is both merit and entrance-based. Candidates must apply online via the official university website, complete eligibility criteria, and appear for the required selection process and document verification to confirm admission. :contentReference[oaicite:2]{index=2}
+
+=== PROGRAMS & DEPARTMENTS ===
+The university offers a variety of UG, PG, and Ph.D. courses across disciplines:
+
+Undergraduate:
+- B.Tech / B.E. in engineering disciplines. :contentReference[oaicite:3]{index=3}
+- BBA (Bachelor of Business Administration). :contentReference[oaicite:4]{index=4}
+- BCA (Bachelor of Computer Applications). :contentReference[oaicite:5]{index=5}
+- B.Sc and BA programs. :contentReference[oaicite:6]{index=6}
+
+Postgraduate:
+- MBA (Master of Business Administration). :contentReference[oaicite:7]{index=7}
+- MCA (Master of Computer Applications). :contentReference[oaicite:8]{index=8}
+- M.Tech / M.E. programs. :contentReference[oaicite:9]{index=9}
+
+Doctoral:
+- Ph.D. programs in Computer Science & Engineering, Commerce & Management, and Interdisciplinary studies. :contentReference[oaicite:10]{index=10}
+
+=== ELIGIBILITY & FEES ===
+Eligibility and fee structures vary by course. Examples include:
+- B.Tech candidates must have passed Class 12 with Physics and Mathematics. :contentReference[oaicite:11]{index=11}
+- MCA requires a relevant bachelor’s degree. :contentReference[oaicite:12]{index=12}
+
+Fee estimates:
+- B.Tech annual fees approximately ₹1,80,000. :contentReference[oaicite:13]{index=13}
+- MBA annual fees approximately ₹2,00,000. :contentReference[oaicite:14]{index=14}
+- MCA total fees around ₹3,20,000. :contentReference[oaicite:15]{index=15}
+Ph.D. tuition fees may be approximately ₹1,50,000 per year for Indian students. :contentReference[oaicite:16]{index=16}
+
+=== TRAINING & PLACEMENTS ===
+The Training and Placement Cell prepares students through industry-aligned training and development activities. Recruiters include top companies from various sectors. :contentReference[oaicite:17]{index=17}
+
+Placement highlights:
+- Over 550 students placed in recent placement drives. :contentReference[oaicite:18]{index=18}
+- Highest package around INR 27 LPA, average around INR 5.5 LPA. :contentReference[oaicite:19]{index=19}
+- Major recruiters include IBM, Wipro, Persistent, Infosys, and others. :contentReference[oaicite:20]{index=20}
+
+=== Ph.D PROGRAM DETAILS ===
+Ph.D programs are offered in multiple research areas including AI/ML, Data Mining, Cloud Computing, Organizational Management, Economics, Physics, Chemistry, and more. The duration is typically a minimum of 3 years. :contentReference[oaicite:21]{index=21}
+
+=== SANJIVANI GROUP OF INSTITUTES ===
+In addition to Sanjivani University, the broader Sanjivani Group of Institutes includes:
+- Sanjivani College of Engineering (Autonomous). :contentReference[oaicite:22]{index=22}
+- Sanjivani Polytechnic, Pharmacy, Arts & Science colleges and others. :contentReference[oaicite:23]{index=23}
+
+=== NOTES ===
+This text file contains basic information about Sanjivani University including programs, admissions, eligibility, placements, and fees. For more detailed, program-specific info consult official sources.
+
+=== HOSTEL AND MESS FACILITIES ===
+Sanjivani University provides separate hostel facilities for boys and girls.
+Hostels include basic amenities such as furnished rooms, internet access, security, and hygiene services.
+Mess facilities are available within the campus providing regular meals for hostel students.

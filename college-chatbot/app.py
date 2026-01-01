@@ -1,34 +1,59 @@
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM, OllamaEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import OllamaEmbeddings
-from langchain.chains import RetrievalQA
 
-llm = Ollama(
-    model="llama3:8b",
-    system="""
-    You are a college assistant chatbot.
-    Answer only using the given college data.
-    If information is not available, say you do not know.
-    """
-)
+# Load LLM
+llm = OllamaLLM(model="llama3:8b")
 
+# IMPORTANT: must match ingestion embeddings
 embeddings = OllamaEmbeddings(model="nomic-embed-text")
+# If you re-indexed with bge-base-en, use that here instead
 
+# Load vector DB
 db = Chroma(
     persist_directory="college_db",
     embedding_function=embeddings
 )
 
-qa = RetrievalQA.from_chain_type(
-    llm=llm,
-    retriever=db.as_retriever(search_kwargs={"k": 3}),
-    chain_type="stuff"
-)
+retriever = db.as_retriever(search_kwargs={"k": 8})
 
-print("College chatbot is ready")
+SYSTEM_PROMPT = """
+You are a college information assistant.
+Answer ONLY using the provided context.
+If the context does not contain relevant information, reply:
+"Information not found in the college database."
+Do not add fallback text if partial information exists.
+
+"""
+
+print("College chatbot ready. Type 'exit' to quit.")
 
 while True:
-    q = input("You: ")
-    if q.lower() in ["exit", "quit"]:
+    query = input("You: ")
+    if query.lower() in ["exit", "quit"]:
         break
-    print("Bot:", qa.run(q))
+
+    docs = retriever.invoke(query)
+
+    if not docs:
+        print("Bot: Information not found in the college database.")
+        continue
+
+    context = "\n\n".join(
+        f"[Source: {doc.metadata.get('source', 'unknown')}]\n{doc.page_content}"
+        for doc in docs
+    )
+
+    prompt = f"""
+{SYSTEM_PROMPT}
+
+Context:
+{context}
+
+Question:
+{query}
+
+Answer:
+"""
+
+    answer = llm.invoke(prompt)
+    print("Bot:", answer)
